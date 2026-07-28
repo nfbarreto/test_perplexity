@@ -1,4 +1,4 @@
-# test_perplexity
+# Custóias Weather Extension
 
 Repositório de testes de interação com Perplexity AI via GitHub MCP.
 

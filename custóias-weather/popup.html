@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custóias Weather</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="header">
+    <span class="location">📍 Custóias, Porto</span>
+    <span class="updated" id="updated"></span>
+  </div>
+
+  <div id="loading" class="loading">A carregar...</div>
+  <div id="error" class="error" style="display:none"></div>
+
+  <div id="content" style="display:none">
+    <!-- Agora -->
+    <div class="section-title">Agora</div>
+    <div class="card now" id="card-now"></div>
+
+    <!-- Hoje -->
+    <div class="section-title">Hoje</div>
+    <div class="cards-row">
+      <div class="card" id="card-today-morning"></div>
+      <div class="card" id="card-today-afternoon"></div>
+    </div>
+
+    <!-- Amanhã -->
+    <div class="section-title">Amanhã</div>
+    <div class="cards-row">
+      <div class="card" id="card-tomorrow-morning"></div>
+      <div class="card" id="card-tomorrow-afternoon"></div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

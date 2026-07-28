@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Custóias Weather",
+  "version": "1.0",
+  "description": "Previsão do tempo para Custóias, Porto — agora, manhã e tarde de hoje e amanhã.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Custóias Weather"
+  },
+  "permissions": [],
+  "host_permissions": [
+    "https://api.open-meteo.com/*"
+  ]
+}
